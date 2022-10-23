@@ -574,3 +574,7 @@ awful.spawn.with_shell("picom -CGb")
 awful.spawn.with_shell("nm-applet")
 awful.spawn.with_shell("xrandr -s 1360x768")
 awful.spawn.with_shell("nitrogen --restore")
+
+-- GAPS ARIANIT
+beautiful.useless_gap = 8
+beautiful.gap_single_client = true
