@@ -3,6 +3,13 @@ Some odd .confing for my personal use case !
 
 requirements:
 
+1. alacritty
+2. picom
+3. pcmanfm
+4. network-manager-gnome (debian)
+5. network-manager-applet (archlinux)
+6. dmenu
+
 #### For i3wm:
 
 *ArchLinux:*
