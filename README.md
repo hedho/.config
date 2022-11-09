@@ -23,3 +23,8 @@ pacman -S awesome pcmanfm picom network-manager-applet dmenu
 ```
 apt install awesome pcmanfm picom network-manager-gnome dmenu
 ```
+
+
+## Preview:
+
+![preview](https://i.ibb.co/RCCbDFj/screenshot.png)
