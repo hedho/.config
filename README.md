@@ -27,4 +27,4 @@ apt install awesome pcmanfm picom network-manager-gnome dmenu
 
 ## Preview:
 
-![preview](https://i.ibb.co/RCCbDFj/screenshot.png)
+![preview](https://raw.githubusercontent.com/hedho/.config/main/screenshot/screenshot.png)
