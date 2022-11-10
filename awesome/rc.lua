@@ -571,8 +571,9 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- Auto Start by ARIANIT
 awful.spawn.with_shell("picom -CGb")
 awful.spawn.with_shell("nm-applet")
-awful.spawn.with_shell("xrandr -s 1360x768")
+-- awful.spawn.with_shell("xrandr -s 1360x768")
 awful.spawn.with_shell("nitrogen --restore")
+awful.spawn.with_shell("volumeicon")
 
 -- GAPS ARIANIT
 beautiful.useless_gap = 8
