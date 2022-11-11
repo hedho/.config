@@ -10,26 +10,27 @@ requirements:
 4. network-manager-gnome (debian)
 5. network-manager-applet (archlinux)
 6. dmenu
+7. volumeicon
 
 #### For i3wm:
 
 *ArchLinux:*
 ```
-pacman -S i3 picom pcmanfm network-manager-applet
+pacman -S i3 picom pcmanfm network-manager-applet volumeicon
 ```
 *Debian:*
 ```
-apt install i3 picom pcmanfm network-manager-gnome
+apt install i3 picom pcmanfm network-manager-gnome volumeicon
 ```
 
 #### For awesome:
 *Archlinux:*
 ```
-pacman -S awesome pcmanfm picom network-manager-applet dmenu
+pacman -S awesome pcmanfm picom network-manager-applet dmenu volumeicon
 ```
 *Debian:*
 ```
-apt install awesome pcmanfm picom network-manager-gnome dmenu
+apt install awesome pcmanfm picom network-manager-gnome dmenu volumeicon
 ```
 
 
