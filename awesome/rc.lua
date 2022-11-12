@@ -197,10 +197,10 @@ awful.screen.connect_for_each_screen(function(s)
     }
 
     -- Create the wibox
-    s.mywibox = awful.wibar({ position = "top", screen = s })
+     s.mywibox = awful.wibar({ position = "top", screen = s })
 
     -- Add widgets to the wibox
-    s.mywibox:setup {
+     s.mywibox:setup {
         layout = wibox.layout.align.horizontal,
         { -- Left widgets
             layout = wibox.layout.fixed.horizontal,
@@ -318,6 +318,21 @@ globalkeys = gears.table.join(
     awful.key({ modkey },            "r",     function ()
     awful.util.spawn("dmenu_run") end,
               {description = "run dmenu", group = "launcher"}),
+
+    -- Keyboard layout US
+    awful.key({ modkey },            "u",     function ()
+    awful.util.spawn("setxkbmap us") end,
+              {description = "Change keyboard to US layout.", group = "Keyboard layout"}),
+
+    -- Keyboard layout DE
+    awful.key({ modkey },            "d",     function ()
+    awful.util.spawn("setxkbmap de") end,
+              {description = "Change keyboard to DE layout.", group = "Keyboard layout"}),
+
+    -- Keyboard layout AL
+    awful.key({ modkey },            "a",     function ()
+    awful.util.spawn("setxkbmap al") end,
+              {description = "Change keyboard to AL layout.", group = "Keyboard layout"}),
 
     awful.key({ modkey }, "x",
               function ()
