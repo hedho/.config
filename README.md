@@ -11,16 +11,18 @@ requirements:
 5. network-manager-applet (archlinux)
 6. dmenu
 7. volumeicon
+8. noto-fonts
+9. noto-fonts-emoji
 
 #### For i3wm:
 
 *ArchLinux:*
 ```
-pacman -S i3 picom pcmanfm network-manager-applet volumeicon
+pacman -S i3 picom pcmanfm network-manager-applet volumeicon noto-fonts noto-fonts-emoji
 ```
 *Debian:*
 ```
-apt install i3 picom pcmanfm network-manager-gnome volumeicon
+apt install i3 picom pcmanfm network-manager-gnome volumeicon noto-fonts noto-fonts-emoji
 ```
 
 #### For awesome:
