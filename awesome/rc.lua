@@ -588,7 +588,7 @@ awful.spawn.with_shell("picom -CGb")
 awful.spawn.with_shell("nm-applet")
 -- awful.spawn.with_shell("xrandr -s 1360x768")
 awful.spawn.with_shell("nitrogen --restore")
-awful.spawn.with_shell("volumeicon")
+awful.spawn.with_shell("pasystray")
 
 -- GAPS ARIANIT
 beautiful.useless_gap = 8
